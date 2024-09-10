@@ -1,4 +1,4 @@
-# <small>Object</small> $boot
+# <small>Object</small> $io
 Contains utility functions.
 
 ## Methods
