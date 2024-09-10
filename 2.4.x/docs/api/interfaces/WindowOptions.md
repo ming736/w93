@@ -94,8 +94,8 @@ The animation to use when the window is closed.
 ### <small>string?</small> bodyClass
 ### <small>string?</small> style
 The CSS to use in the window.
-### <small>string?</small> dest
+### <small>HTMLElement</small> dest
 #### Default
-`document.body`
-### <small>string?</small> dock
+The body of the document.
+### <small>unknown</small> dock
 ### <small>unknown</small> contextmenu
