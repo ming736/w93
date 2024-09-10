@@ -1,7 +1,8 @@
 # <small>Object</small> $url
 URL related utilities.
-
 ## Properties
+### <small>Object\<string,string></small> query
+## Methods
 ### <small>Object\<string,string></small> parseQuery(<small>e: string</small>)
 ### <small>string</small> getExtention(<small>e: string</small>)
 !> Janken likely accidentally misspelled this function's name while creating it.
