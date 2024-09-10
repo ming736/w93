@@ -2,6 +2,7 @@
 Represents an item inside of a [Menu](/api/interface/Menu.md).
 
 ## Properties
+
 ### <small>string</small> name
 The name of the `MenuItem`.
 ### <small>string?</small> icon

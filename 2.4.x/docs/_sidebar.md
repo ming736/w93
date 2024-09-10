@@ -3,6 +3,15 @@
     * [01 - Getting Started](first-app/01-getting-started.md)
 
 * API
+    * Globals
+        * [$error](api/globals/$error.md)
+        * [$boot](api/globals/$boot.md)
+        * [$noop](api/globals/$noop.md)
+        * [$watch](api/globals/$watch.md)
+        * [$url](api/globals/$url.md)
+        * [🗑️ $note](api/globals/$note.md)
+        * [🗑️ $dom](api/globals/$dom.md)
+        * [🗑️ $iframe](api/globals/$iframe.md)
 
     * Interfaces
 

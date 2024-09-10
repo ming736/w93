@@ -1,6 +1,7 @@
 # <small>interface</small> DialogOptions <small>extends</small> WindowOptions
 
 ## Properties
+
 ### <small>string</small> msg
 The message of the dialog.
 ### <small>string</small> img
