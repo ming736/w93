@@ -6,6 +6,8 @@
 
     * Interfaces
 
+        * [Menu](api/interfaces/Menu.md)
+        * [MenuItem](api/interfaces/MenuItem.md)
         * [WindowElements](api/interfaces/WindowElements.md)
         * [WindowInstance](api/interfaces/WindowInstance.md)
         * [WindowOptions](api/interfaces/WindowOptions.md)

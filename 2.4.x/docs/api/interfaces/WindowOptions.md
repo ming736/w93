@@ -14,11 +14,8 @@ The help text or HTML to display when the help button is clicked.
 ?> The help button will only appear when this property has a value.
 ### <small>string?</small> url
 If present, the html of the window will become an iframe that points to `url`.
-### <small>Array\<Menu>?</small> menu
-!> TODO: Add documentation for this.
-
+### <small>Array\<[Menu](api/interfaces/Menu.md)>?</small> menu
 The menu buttons shown below the title bar.
-
 ### <small>boolean?</small> header
 Whether or not the title bar should be visible.
 ### <small>number?</small> borderTopWidth

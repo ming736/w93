@@ -1,4 +1,4 @@
-# WindowInstance
+# <small>interface</small> WindowInstance
 
 Represents a window created by `$window`.
 
