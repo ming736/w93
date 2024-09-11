@@ -10,7 +10,7 @@ URL related utilities.
 Returns the extension of a url or file path.
 ### <small>string</small> getDomain(<small>url: string</small>)
 Returns the domain inside the url.
-### <small>void</small> checkImage(<small>url: string, callback: (valid: boolean, imageUrl: string?, image: Image?) => void</small>)
+### <small>void</small> checkImage(<small>url: string, callback: (valid: boolean, imageUrl?: string, image?: Image) => void</small>)
 Checks whether or not an image url is valid. `callback` will be fired determining whether or not it is valid.
 
 ### <small>void</small> _checkFavicon(<small>e: string, callback: (...args: any) => void</small>)

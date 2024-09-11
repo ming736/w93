@@ -1,4 +1,4 @@
-# <small>Object</small> $kernel(<small>e: any, l: any</small>)
+# <small>void</small> $kernel(<small>e: any, l: any</small>)
 Used to create `system42`.
 
 !> It is recommended that you only use [`$kernel.data._apps`](/api/interfaces/KernelData.md#objectltstringappgt-_apps) (or `le._apps`). Modifying anything else may corrupt your installation.
