@@ -4,7 +4,7 @@ Used to create `system42`.
 !> It is recommended that you only use [`$kernel.data._apps`](/api/interfaces/KernelData.md) (or `le._apps`). Modifying anything else may corrupt your installation.
 ## Properties
 ### <small>[KernelData](/api/interfaces/KernelData.md)</small> data
-The data inside the kernel. Used for creating and modifying apps through the `_apps` property.
+The data inside the kernel. Used for creating and modifying apps through the `_apps` property. `le` is a reference to this.
 ### <small>Object</small> observers
 Possibly a list of `MutationObserver`s.
 ### <small>boolean</small> paused

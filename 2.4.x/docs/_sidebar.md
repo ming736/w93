@@ -24,7 +24,7 @@
         * [🗑️ $iframe](api/globals/$iframe.md)
 
     * Interfaces
-
+        * [App](api/interfaces/App.md)
         * [KernelData](api/interfaces/KernelData.md)
         * [Menu](api/interfaces/Menu.md)
         * [MenuItem](api/interfaces/MenuItem.md)
