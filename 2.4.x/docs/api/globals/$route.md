@@ -1,4 +1,4 @@
-# <small>void</small> $route(newHash: string)
+# <small>void</small> $route(<small>newHash: string</small>)
 Changes the URL hash without refreshing the page.
 Also automatically adds a `!` to the start of `newHash` before applying.
 ## Example

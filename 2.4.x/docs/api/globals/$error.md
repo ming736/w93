@@ -1,4 +1,4 @@
-# <small>Object</small> $error(ex: Error)
+# <small>Object</small> $error(<small>ex: Error</small>)
 Likely something to do with analytics.
 ## Returns
 An object with the following properties:

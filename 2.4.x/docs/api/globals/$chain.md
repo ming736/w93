@@ -1,4 +1,4 @@
-# <small>Object</small> $chain(obj: Object)
+# <small>Object</small> $chain(<small>obj: Object</small>)
 ## Returns
 An object with the following methods:
 ### <small>Object</small> prop(<small>source: Object</small>)

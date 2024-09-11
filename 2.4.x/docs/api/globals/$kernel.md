@@ -1,7 +1,7 @@
-# <small>Object</small> $kernel(e: any, l: any)
+# <small>Object</small> $kernel(<small>e: any, l: any</small>)
 Used to create `system42`.
 
-!> It is recommended that you only use [`$kernel.data._apps`](/api/interfaces/KernelData.md) (or `le._apps`). Modifying anything else may corrupt your installation.
+!> It is recommended that you only use [`$kernel.data._apps`](/api/interfaces/KernelData.md#objectltstringappgt-_apps) (or `le._apps`). Modifying anything else may corrupt your installation.
 ## Properties
 ### <small>[KernelData](/api/interfaces/KernelData.md)</small> data
 The data inside the kernel. Used for creating and modifying apps through the `_apps` property. `le` is a reference to this.

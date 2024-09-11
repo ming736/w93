@@ -20,6 +20,7 @@
         * [$io](api/globals/$io.md)
         * [$kernel](api/globals/$kernel.md)
         * [$route](api/globals/$route.md)
+        * [$fullscreen](api/globals/$fullscreen.md)
         * [system42](api/globals/$kernel.md)
         * [le](api/globals/$kernel.md#kerneldata-data)
         * [🗑️ $note](api/globals/$note.md)

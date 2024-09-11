@@ -1,4 +1,4 @@
-# <small>Object</small> $undo(initialHistory: Array<any>)
+# <small>Object</small> $undo(<small>initialHistory: Array\<any>)
 
 ## Returns
 An object with the following methods:
