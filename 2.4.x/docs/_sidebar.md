@@ -1,7 +1,9 @@
-* Creating your first app
+* Tutorials
 
-    * [Getting Started](first-app/01-getting-started.md)
-    * [Customizing your Window](first-app/02-customizing-your-window.md)
+    * Creating your first app
+
+        * [Getting Started](first-app/01-getting-started.md)
+        * [Customizing your Window](first-app/02-customizing-your-window.md)
 
 * API
     * Globals
@@ -17,11 +19,14 @@
         * [$delegate](api/globals/$delegate.md)
         * [$io](api/globals/$io.md)
         * [$kernel](api/globals/$kernel.md)
+        * [$route](api/globals/$route.md)
         * [system42](api/globals/$kernel.md)
         * [le](api/globals/$kernel.md#kerneldata-data)
         * [🗑️ $note](api/globals/$note.md)
         * [🗑️ $dom](api/globals/$dom.md)
         * [🗑️ $iframe](api/globals/$iframe.md)
+    * Types
+        * [KernelEventName](api/types/KernelEventName.md)
 
     * Interfaces
         * [App](api/interfaces/App.md)

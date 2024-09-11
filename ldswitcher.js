@@ -113,9 +113,6 @@ button[onclick="docsifyDarkSwitcher()"] {
         background: rgb(0 0 0 / .6);
     }
 }
-h1, h2, h3, h4, h5, h6 {
-    color: var(--dark-heading-color)
-}
 `;
 styleInject(css);
 

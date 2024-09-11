@@ -13,9 +13,9 @@ Possibly a list of `MutationObserver`s.
 ## Methods
 ### <small>void</small> config(<small>e: Object</small>)
 ### <small>unknown</small> launch(<small>t: any</small>)
-### <small>void</small> off(<small>eventName: string, callback: (...args: any) => void</small>)
-### <small>void</small> on(<small>eventName: string, callback: (...args: any) => void</small>)
-### <small>void</small> once(<small>eventName: string, callback: (...args: any) => void</small>)
+### <small>void</small> off(<small>eventName:&nbsp;[KernelEventName](api/types/KernelEventName.md), callback: (...args: any) => void</small>)
+### <small>void</small> on(<small>eventName:&nbsp;[KernelEventName](api/types/KernelEventName.md), callback: (...args: any) => void</small>)
+### <small>void</small> once(<small>eventName:&nbsp;[KernelEventName](api/types/KernelEventName.md), callback: (...args: any) => void</small>)
 ### <small>unknown</small> parallel(<small>r: any, a: any</small>)
 ### <small>unknown</small> series(<small>e: any, a: any</small>)
 ### <small>unknown</small> stop(<small>e: any</small>)
