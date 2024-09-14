@@ -1,4 +1,4 @@
-# Windows 93 Docs (v2.4.x)
+# Windows 93 Docs (v2.x)
 
 !> This is currently unfinished!
 
