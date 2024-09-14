@@ -1,3 +1,7 @@
+/*
+all credits go to LIGMATV for this
+repo: https://github.com/LIGMATV/docsify-dark-switcher
+*/
 function docsifyDarkSwitcher() {
     var element = document.querySelector('body');
     element.classList.toggle("docsify-dark-mode");
