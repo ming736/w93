@@ -10,7 +10,7 @@ Possibly a list of `MutationObserver`s.
 ### <small>boolean</small> paused
 ### <small>Object</small> ready
 ### <small>Object</small> tasks
-### <small>Object</small> nfo
+### <small>Object</small> nfo {{removed}}
 !> <strong>Removed</strong><br>
 `$kernel.nfo` was removed in version 2.0.0.
 ## Methods
@@ -24,3 +24,4 @@ Possibly a list of `MutationObserver`s.
 ### <small>unknown</small> stop(<small>e: any</small>)
 ### <small>unknown</small> task(<small>e: any, n: any</small>)
 ### <small>unknown</small> trigger(<small>n: any</small>)
+### <small>unknown</small> setThisArg(<small>n: any</small>) {{removed}}
