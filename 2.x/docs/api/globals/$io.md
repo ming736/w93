@@ -14,18 +14,24 @@ Has a method called `arr`. Not sure what it does.
 ### <small>object</small> obj
 ### <small>object</small> Object
 ### <small>object</small> reg
+Has a method called `escape` which escapes the text provided, likely used to prevent XSS attacks.
 ### <small>object</small> str
 ### <small>object</small> String
 ### <small>object</small> xml
 Has a method called `parse` which parses xml and returns an `XMLDocument`.
 ## Methods
-### <small>unknown</small> clone(<small>r: any</small>)
-### <small>unknown</small> each(<small>r: any, t: any, n: any</small>)
-### <small>unknown</small> enum(<small>r: any, e: any, t: any</small>)
-### <small>unknown</small> equal(<small>r: any, t: any</small>)
+### <small>unknown</small> clone(<small>arg: any</small>)
+Returns a clone of `arg`.
+### <small>void</small> each(<small>obj: object, callback: (value: any, index: any, obj: object) => boolean?, thisArg?: any</small>)
+Iterates over `obj` and calls `callback` for every entry. If `callback` returns `false` at any point, the iteration is stopped.
+### <small>void</small> enum(<small>arr: Array, e: (value: any, index: number, o: (r: any) => unknown) => void, t: (...a: unknown) => unknown</small>)
+### <small>boolean</small> equal(<small>arg1: any, arg2: any</small>)
+Returns whether or not `arg1` and `arg2` are equal.
 ### <small>unknown</small> find(<small>e: any, o: any, r: any, t: any, n: any</small>)
-### <small>unknown</small> is(<small>r: any</small>)
-### <small>unknown</small> isArguments(<small>r: any</small>)
+### <small>string</small> is(<small>arg: any</small>)
+Returns the class name of `arg`.
+### <small>boolean</small> isArguments(<small>arg: any</small>)
+Returns whether or not `arg` is an [`Arguments`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) object.
 ### <small>boolean</small> isArray(<small>arg: any</small>)
 Identical to [`Array.isArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray).
 ### <small>boolean</small> isDocument(<small>arg: any</small>)
@@ -72,4 +78,4 @@ Converts a JSON string `json` into an object.
 ### <small>string</small> stringify(<small>arg: any, indent: number?</small>)
 Converts `arg` into a JSON string. If `indent` is provided, then the JSON string will be indented by `indent` amount of spaces.
 ### <small>string</small> type(<small>arg: any</small>)
-Returns the class name of `arg`.
+Identical to [`is`](#unknown-isarg-any).
