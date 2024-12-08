@@ -4,7 +4,7 @@ Contains utility functions.
 !> TODO: Fully add docs
 ## Properties
 ### <small>object</small> arg
-Contains a function called `arr`. Not sure what it does.
+Has a method called `arr`. Not sure what it does.
 ### <small>object</small> arr
 ### <small>object</small> Array
 ### <small>object</small> ArrayBuffer
