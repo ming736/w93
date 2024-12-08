@@ -15,3 +15,17 @@ The nickname of the person who sent the message.
 The author's nickname color.
 ### Outbound
 A string.
+
+## Examples
+### Outbound
+```javascript
+socket.emit("message","Hello, world!")
+// Or, use the shorthand send function.
+socket.send("Hello, world!")
+```
+### Inbound
+```javascript
+socket.on("message", (data) => {
+    console.log(`${data.nick} said ${data.msg}`)
+})
+```
