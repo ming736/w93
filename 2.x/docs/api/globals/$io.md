@@ -2,6 +2,22 @@
 Contains utility functions.
 
 !> TODO: Fully add docs
+## Properties
+### <small>object</small> arg
+Contains a function called `arr`. Not sure what it does.
+### <small>object</small> arr
+### <small>object</small> Array
+### <small>object</small> ArrayBuffer
+### <small>object</small> Blob
+### <small>object</small> File
+### <small>object</small> fn
+### <small>object</small> obj
+### <small>object</small> Object
+### <small>object</small> reg
+### <small>object</small> str
+### <small>object</small> String
+### <small>object</small> xml
+Has a method called `parse` which parses xml and returns an `XMLDocument`.
 ## Methods
 ### <small>unknown</small> clone(<small>r: any</small>)
 ### <small>unknown</small> each(<small>r: any, t: any, n: any</small>)
