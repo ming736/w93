@@ -1,4 +1,4 @@
-# <small>void</small> $notif(<small>options: string | Object, element?: string | HTMLElement</small>)
+# <small>void</small> $notif(<small>options: string | object, element?: string | HTMLElement</small>)
 Creates a notification. If `options` is a string, that will be the body of the notification, otherwise the config options. If `element` is a string, that will be the title of the notification, otherwise unknown.
 ## Parameters
 ### options

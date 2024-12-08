@@ -10,4 +10,4 @@ Loads a script from a url.
 Loads a stylesheet from a url.
 ### <small>Promise\<unknown></small> audio(<small>srcUrl: string</small>)
 Loads an audio from a url.
-### <small>void</small> config(<small>config: Object</small>)
+### <small>void</small> config(<small>config: object</small>)

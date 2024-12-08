@@ -1,4 +1,4 @@
-# <small>Object</small> $file
+# <small>object</small> $file
 
 Allows you to interact with the file system.
 

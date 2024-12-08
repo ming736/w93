@@ -1,4 +1,4 @@
-# <small>Object</small> $boot
+# <small>object</small> $boot
 Info about the boot screen.
 ## Properties
 

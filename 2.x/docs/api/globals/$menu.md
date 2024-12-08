@@ -1,3 +1,3 @@
-# <small>Object</small> $menu(<small>element: HTMLElement, menu: Object, options: Object</small>)
+# <small>object</small> $menu(<small>element: HTMLElement, menu: object, options: object</small>)
 
 !> TODO: Write documentation

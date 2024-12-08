@@ -29,7 +29,7 @@ Changes the size of the window.
 
 #### Parameters
 
-- <small>Object</small> **size**
+- <small>object</small> **size**
   - <small>number</small> **width**: The new width of the window.
   - <small>number</small> **height**: The new height of the window.
 - <small>() => void</small> **callback?**

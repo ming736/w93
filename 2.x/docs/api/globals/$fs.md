@@ -1,7 +1,7 @@
-# <small>Object</small> $fs
+# <small>object</small> $fs
 !> TODO: Fully add docs
 ## Properties
-### <small>Object</small> utils
+### <small>object</small> utils
 Filesystem-related utilities.
 
 It has the following methods:

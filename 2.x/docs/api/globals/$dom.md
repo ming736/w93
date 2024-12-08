@@ -1,4 +1,4 @@
-# <small>Object</small> $dom
+# <small>object</small> $dom
 
 !> <strong>Removed</strong><br>
 `$dom` was removed in version 2.0.0. It only existed in version 2.0.0 beta (2.0.0b). Use [`$selection`](/api/globals/$selection.md) instead.

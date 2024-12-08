@@ -1,4 +1,4 @@
-# <small>Object</small> $extend(<small>...objects: Object</small>)
+# <small>object</small> $extend(<small>...objects: object</small>)
 Merges all the objects provided into one. Objects passed later will overwrite previous properties if they existed in an earlier object.
 ## Example
 ```javascript

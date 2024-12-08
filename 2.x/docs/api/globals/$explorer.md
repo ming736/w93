@@ -1,4 +1,4 @@
-# <small>void</small> $explorer(<small>path: string, options: Object</small>)
+# <small>void</small> $explorer(<small>path: string, options: object</small>)
 
 !> TODO: Add docs
 

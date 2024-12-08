@@ -1,4 +1,4 @@
-# <small>Object</small> $socket(<small>url: string</small>)
+# <small>object</small> $socket(<small>url: string</small>)
 A `WebSocket` wrapper.
 
 ## Returns

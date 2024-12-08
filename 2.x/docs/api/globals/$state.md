@@ -1,4 +1,4 @@
-# <small>Object</small> $state
+# <small>object</small> $state
 
 !> It is currently unclear what this does, so info may be limited.
 

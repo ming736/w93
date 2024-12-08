@@ -5,16 +5,16 @@ Used to create `system42`.
 ## Properties
 ### <small>[KernelData](/api/interfaces/KernelData.md)</small> data
 The data inside the kernel. Used for creating and modifying apps through the `_apps` property. `le` is a reference to this.
-### <small>Object</small> observers
+### <small>object</small> observers
 Possibly a list of `MutationObserver`s.
 ### <small>boolean</small> paused
-### <small>Object</small> ready
-### <small>Object</small> tasks
-### <small>Object</small> nfo {{removed}}
+### <small>object</small> ready
+### <small>object</small> tasks
+### <small>object</small> nfo {{removed}}
 !> <strong>Removed</strong><br>
 `$kernel.nfo` was removed in version 2.0.0.
 ## Methods
-### <small>void</small> config(<small>e: Object</small>)
+### <small>void</small> config(<small>e: object</small>)
 ### <small>unknown</small> launch(<small>t: any</small>)
 ### <small>void</small> off(<small>eventName:&nbsp;[KernelEventName](api/types/KernelEventName.md), callback: (...args: any) => void</small>)
 ### <small>void</small> on(<small>eventName:&nbsp;[KernelEventName](api/types/KernelEventName.md), callback: (...args: any) => void</small>)

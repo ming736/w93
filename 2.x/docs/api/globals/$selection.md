@@ -1,4 +1,4 @@
-# <small>Object</small> $selection
+# <small>object</small> $selection
 
 ## Methods
 ### <small>string</small> get()

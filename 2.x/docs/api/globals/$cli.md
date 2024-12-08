@@ -1,4 +1,4 @@
-# <small>Object</small> $cli(<small>element: HTMLElement, options?: Object</small>)
+# <small>object</small> $cli(<small>element: HTMLElement, options?: object</small>)
 Creates a command-line interface similar to that of the `terminal` app where `element` is the body of the cli.
 ## Methods
 ### <small>void</small> clearhistory()
@@ -6,7 +6,7 @@ Clears your history.
 ## Returns
 An object with the following properties:
 
-### <small>Object</small> cfg
+### <small>object</small> cfg
 ### <small>boolean</small> cli
 ### <small>HTMLTextAreaElement</small> input
 ### <small>HTMLSpanElement</small> prompt

@@ -1,4 +1,4 @@
-# <small>Object</small> $drop(<small>element: HTMLElement | string, selector: any, options?: Object</small>)
+# <small>object</small> $drop(<small>element: HTMLElement | string, selector: any, options?: object</small>)
 
 !> <strong>Removed</strong><br>
 `$drop` was removed in version 2.0.0. It only existed in version 2.0.0 beta (2.0.0b).

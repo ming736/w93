@@ -1,10 +1,10 @@
-# <small>Object</small> $ui
+# <small>object</small> $ui
 
 !> <strong>Removed</strong><br>
 `$ui` was removed in version 2.0.0. It only existed in version 2.0.0 beta (2.0.0b).
 
 ## Methods
-### <small>void</small> colorpicker(<small>target: HTMLElement, colorDisplay: HTMLElement, options?: Object </small>)
+### <small>void</small> colorpicker(<small>target: HTMLElement, colorDisplay: HTMLElement, options?: object </small>)
 
 !> <strong>Broken</strong><br>
 This method appears to be broken.<br>

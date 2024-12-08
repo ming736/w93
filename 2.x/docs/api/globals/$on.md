@@ -1,4 +1,4 @@
-# <small>Object</small> $on
+# <small>object</small> $on
 Handles the resize listener.
 ## Methods
 

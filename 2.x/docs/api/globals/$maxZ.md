@@ -1,4 +1,4 @@
-# <small>Object</small> $maxZ(<small>selectorOrElement: string | NodeList | Element, context?: Document</small>)
+# <small>object</small> $maxZ(<small>selectorOrElement: string | NodeList | Element, context?: Document</small>)
 ## Returns
 
 An object with the following properties:

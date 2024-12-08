@@ -1,7 +1,7 @@
-# <small>Object</small> $chain(<small>obj: Object</small>)
+# <small>object</small> $chain(<small>obj: object</small>)
 ## Returns
 An object with the following methods:
-### <small>Object</small> prop(<small>source: Object</small>)
+### <small>object</small> prop(<small>source: object</small>)
 Adds a property to the object. Returns itself, allowing for chaining.
-### <small>Object</small> meth(<small>source: Object</small>)
+### <small>object</small> meth(<small>source: object</small>)
 Adds a method to the object. Returns itself, allowing for chaining.

@@ -1,4 +1,4 @@
-# <small>(variables?: Object) => string</small> $template(<small>input: string</small>)
+# <small>(variables?: object) => string</small> $template(<small>input: string</small>)
 
 Returns a function that allows you to substitute variables into `input` alongside `if` and `unless` expressions.
 ## Substitution
