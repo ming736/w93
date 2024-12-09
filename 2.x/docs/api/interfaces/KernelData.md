@@ -7,12 +7,12 @@ Something related to modifying a canvas element.
 #### Default
 `true`
 ### <small>Array\<object | null></small> explorers
-### <small>object\<string,[App](/api/interfaces/App.md)></small> _apps
+### <small>object\<string, [App](/api/interfaces/App.md)></small> _apps
 An object containing every registered app.
 ### <small>object</small> clean
 ### <small>object</small> _desktop
 An object containing every icon on the desktop.
-### <small>object\<string,HTMLElement></small> _dom
+### <small>object\<string, HTMLElement></small> _dom
 ### <small>object</small> _events
 ### <small>object</small> _files
 ### <small>Array\<string></small> _fx

@@ -69,13 +69,16 @@
         * [🗑️ $drop](api/globals/$drop.md)
     * Types
         * [KernelEventName](api/types/KernelEventName.md)
+        * [SchemaFieldType](api/types/SchemaFieldType.md)
 
     * Interfaces
         * [App](api/interfaces/App.md)
+        * [FormOptions](api/interfaces/FormOptions.md)
         * [HeaderButton](api/interfaces/HeaderButton.md)
         * [KernelData](api/interfaces/KernelData.md)
         * [Menu](api/interfaces/Menu.md)
         * [MenuItem](api/interfaces/MenuItem.md)
+        * [SchemaField](api/interfaces/SchemaField.md)
         * [WindowElements](api/interfaces/WindowElements.md)
         * [WindowInstance](api/interfaces/WindowInstance.md)
         * [WindowOptions](api/interfaces/WindowOptions.md)
