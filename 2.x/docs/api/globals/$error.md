@@ -8,7 +8,7 @@ An object with the following properties:
 The error message.
 ### <small>string</small> name
 The name of the error.
-### <small>string</small> reportBody?
+### <small>string?</small> reportBody
 ### <small>string</small> reportLink
 ### <small>Array\<string></small> stack
 An array where each entry is a line inside of the error's stack.
