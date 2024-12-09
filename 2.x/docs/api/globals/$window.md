@@ -57,20 +57,7 @@ $window.form(
                     ["I'm Option 1!", "Option 1"],
                     ["And I'm Option 2!", "Option 2"]
                 ]
-            },
-            numberWithPresetValues: {
-                title: "Choose a number.",
-                type: "string",
-                enum: [42, 93]
-            },
-            numberWithPresetValuesAndTitles: {
-                title: "Choose a number again.",
-                type: "string",
-                enum: [
-                    ["The meaning of life (42)", 42],
-                    ["Windows (93)", 93]
-                ]
-            },
+            }
         }
     }, 
     function(ok, data) {
