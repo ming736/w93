@@ -24,8 +24,10 @@ Whether or not the title bar should be visible.
 ### <small>number?</small> borderBottomWidth
 ### <small>number?</small> borderLeftWidth
 ### <small>number?</small> borderRightWidth
-### <small>unknown</small> baseWidth
-### <small>unknown</small> baseHeight
+### <small>number?</small> baseWidth
+The starting width of the window.
+### <small>number?</small> baseHeight
+The starting height of the window.
 ### <small>number?</small> minWidth
 The minimum width of the window.
 ### <small>number?</small> minHeight
@@ -40,6 +42,7 @@ Whether or not the window will appear in the center of the viewport.
 ### <small>boolean?</small> constrain
 Whether or not the window should stay inside the viewport.
 ### <small>boolean?</small> ajax
+If [`url`](#string-url) is also provided, will send a HTTP request to retrieve the data instead of iframing it.
 ### <small>boolean?</small> autoMaximize
 Whether or not the window will be maximized when created.
 ### <small>boolean?</small> contextmenuOnBody
@@ -55,7 +58,7 @@ Whether or not the window can be closed.
 ### <small>boolean?</small> draggable
 Whether or not the window can be dragged around.
 ### <small>boolean?</small> dockable
-Whether or not the window will appear in the dock.
+Whether or not the window will appear in the taskbar. [`dock`](#boolean-dock) must also be true for it to appear in the taskbar.
 ### <small>boolean?</small> activable
 !> It is recommended NOT to use this.
 
@@ -90,11 +93,19 @@ The animation to use when the window is opened.
 ### <small>string?</small> animationOut
 The animation to use when the window is closed.
 ### <small>string?</small> baseClass
+The class(es) to add to the window container, seperated by spaces.
 ### <small>string?</small> bodyClass
+The class(es) to add to the body of the window, seperated by spaces.
 ### <small>string?</small> style
 The CSS to use in the window.
-### <small>HTMLElement</small> dest
+### <small>HTMLElement?</small> dest
 #### Default
 The body of the document.
-### <small>unknown</small> dock
-### <small>unknown</small> contextmenu
+### <small>HTMLElement?</small> dock
+!> TODO: Reword this description
+
+The element to add the minimized version of the window to.
+#### Default
+The taskbar.
+### <small>boolean?</small> contextmenu
+Whether or not only the base options are shown in the titlebar's context menu.
