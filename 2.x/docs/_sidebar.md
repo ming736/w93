@@ -72,6 +72,7 @@
 
     * Interfaces
         * [App](api/interfaces/App.md)
+        * [HeaderButton](api/interfaces/HeaderButton.md)
         * [KernelData](api/interfaces/KernelData.md)
         * [Menu](api/interfaces/Menu.md)
         * [MenuItem](api/interfaces/MenuItem.md)
