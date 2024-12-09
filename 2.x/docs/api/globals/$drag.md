@@ -1,13 +1,13 @@
 # <small>object</small> $drag(<small>element: string | HTMLElement, o?: any | object, options?: object</small>)
 Allows for `element` to be dragged.
 ## Properties
-### <small>object?</small> cfg
-### <small>HTMLElement?</small> elem
+### <small>object</small> cfg?
+### <small>HTMLElement</small> elem?
 ### <small>unknown</small> ghost
 ### <small>object</small> initialPos
 ### <small>boolean</small> isDragging
-### <small>number?</small> x
-### <small>number?</small> y
+### <small>number</small> x?
+### <small>number</small> y?
 ### <small>unknown</small> zone
 
 ## Methods

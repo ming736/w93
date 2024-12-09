@@ -8,104 +8,104 @@
 The title of the window.
 ### <small>string</small> html
 The HTML of the window.
-### <small>string?</small> icon
+### <small>string</small> icon?
 The URL or path to the icon.
-### <small>string?</small> help
+### <small>string</small> help?
 The help text or HTML to display when the help button is clicked.
 
 ?> The help button will only appear when this property has a value.
-### <small>string?</small> url
+### <small>string</small> url?
 If present, the html of the window will become an iframe that points to `url`.
-### <small>Array\<[Menu](api/interfaces/Menu.md)>?</small> menu
+### <small>Array\<[Menu](api/interfaces/Menu.md)></small> menu?
 The menu buttons shown below the title bar.
-### <small>boolean?</small> header
+### <small>boolean</small> header?
 Whether or not the title bar should be visible.
-### <small>number?</small> borderTopWidth
-### <small>number?</small> borderBottomWidth
-### <small>number?</small> borderLeftWidth
-### <small>number?</small> borderRightWidth
-### <small>number?</small> baseWidth
+### <small>number</small> borderTopWidth?
+### <small>number</small> borderBottomWidth?
+### <small>number</small> borderLeftWidth?
+### <small>number</small> borderRightWidth?
+### <small>number</small> baseWidth?
 The starting width of the window.
-### <small>number?</small> baseHeight
+### <small>number</small> baseHeight?
 The starting height of the window.
-### <small>number?</small> minWidth
+### <small>number</small> minWidth?
 The minimum width of the window.
-### <small>number?</small> minHeight
+### <small>number</small> minHeight?
 The minimum height of the window.
-### <small>number?</small> top
+### <small>number</small> top?
 The amount of pixels away from the top of the viewport where the window should be.
-### <small>number?</small> left
+### <small>number</small> left?
 The amount of pixels away from the left of the viewport where the window should be.
-### <small>boolean?</small> center
+### <small>boolean</small> center?
 Whether or not the window will appear in the center of the viewport.
-### <small>boolean?</small> noOut
-### <small>boolean?</small> constrain
+### <small>boolean</small> noOut?
+### <small>boolean</small> constrain?
 Whether or not the window should stay inside the viewport.
-### <small>boolean?</small> ajax
+### <small>boolean</small> ajax?
 If [`url`](#string-url) is also provided, will send a HTTP request to retrieve the data instead of iframing it.
-### <small>boolean?</small> autoMaximize
+### <small>boolean</small> autoMaximize?
 Whether or not the window will be maximized when created.
-### <small>boolean?</small> contextmenuOnBody
+### <small>boolean</small> contextmenuOnBody?
 Whether or not the context menu can appear when right-clicking inside the body of the window.
-### <small>boolean?</small> resizable
+### <small>boolean</small> resizable?
 Whether or not the window can be resized.
-### <small>boolean?</small> minimizable
+### <small>boolean</small> minimizable?
 Whether or not the window can be minimized.
-### <small>boolean?</small> maximizable
+### <small>boolean</small> maximizable?
 Whether or not the window can be maximized.
-### <small>boolean?</small> closeable
+### <small>boolean</small> closeable?
 Whether or not the window can be closed.
-### <small>boolean?</small> draggable
+### <small>boolean</small> draggable?
 Whether or not the window can be dragged around.
-### <small>boolean?</small> dockable
+### <small>boolean</small> dockable?
 Whether or not the window will appear in the taskbar. [`dock`](#boolean-dock) must also be true for it to appear in the taskbar.
-### <small>boolean?</small> activable
+### <small>boolean</small> activable?
 !> It is recommended NOT to use this.
 
 Whether or not the window can be selected.
-### <small>Array\<[HeaderButton](api/interfaces/HeaderButton.md)>?</small> headerBtn
-### <small>Function?</small> onopen
+### <small>Array\<[HeaderButton](api/interfaces/HeaderButton.md)></small> headerBtn?
+### <small>Function</small> onopen?
 The function that is called when the window is opened.
-### <small>Function?</small> onready
+### <small>Function</small> onready?
 The function that is called when the window is ready.
-### <small>Function?</small> onclose
+### <small>Function</small> onclose?
 The function that is called when the window is closed.
-### <small>Function?</small> onok
+### <small>Function</small> onok?
 The function that is called when the `OK` button is clicked.
-### <small>Function?</small> oncancel
+### <small>Function</small> oncancel?
 The function that is called when the `Cancel` button is clicked.
-### <small>Function?</small> onminimize
+### <small>Function</small> onminimize?
 The function that is called when the window is minimized.
-### <small>Function?</small> ondrag
+### <small>Function</small> ondrag?
 The function that is called when the window is dragged around.
-### <small>Function?</small> ondragstop
+### <small>Function</small> ondragstop?
 The function that is called when the window is no longer being dragged around.
-### <small>Function?</small> onresize
+### <small>Function</small> onresize?
 The function that is called when the window is resized.
-### <small>Function?</small> onactive
+### <small>Function</small> onactive?
 The function that is called when the window becomes active.
-### <small>Function?</small> ondestroy
+### <small>Function</small> ondestroy?
 !> It is recommended to use [onclose](#function-onclose) instead.
 
 The function that is called when the window is destroyed.
-### <small>string?</small> animationIn
+### <small>string</small> animationIn?
 The animation to use when the window is opened.
-### <small>string?</small> animationOut
+### <small>string</small> animationOut?
 The animation to use when the window is closed.
-### <small>string?</small> baseClass
+### <small>string</small> baseClass?
 The class(es) to add to the window container, seperated by spaces.
-### <small>string?</small> bodyClass
+### <small>string</small> bodyClass?
 The class(es) to add to the body of the window, seperated by spaces.
-### <small>string?</small> style
+### <small>string</small> style?
 The CSS to use in the window.
-### <small>HTMLElement?</small> dest
+### <small>HTMLElement</small> dest?
 #### Default
 The body of the document.
-### <small>HTMLElement?</small> dock
+### <small>HTMLElement</small> dock?
 !> TODO: Reword this description
 
 The element to add the minimized version of the window to.
 #### Default
 The taskbar.
-### <small>boolean?</small> contextmenu
+### <small>boolean</small> contextmenu?
 Whether or not only the base options are shown in the titlebar's context menu.

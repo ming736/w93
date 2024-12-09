@@ -3,15 +3,15 @@ Creates a notification. If `options` is a string, that will be the body of the n
 ## Parameters
 ### options
 Either a string or an object with the following properties:
-#### <small>string?</small> title
+#### <small>string</small> title?
 The title of the notification.
 #### <small>string</small> text
 The text to show in the notification.
-#### <small>string?</small> description
-#### <small>string?</small> body
-#### <small>Element?</small> default
-#### <small>HTMLElement?</small> dest
+#### <small>string</small> description?
+#### <small>string</small> body?
+#### <small>Element</small> default?
+#### <small>HTMLElement</small> dest?
 The element to append the notification to.
-#### <small>boolean?</small> delay
-#### <small>number?</small> speed
+#### <small>boolean</small> delay?
+#### <small>number</small> speed?
 How long until the notification disappears.

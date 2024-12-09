@@ -1,4 +1,4 @@
-# <small>void</small> $db(<small>defaultValue: any, key: string, callback: (err: any, value: any) => void?</small>)
+# <small>void</small> $db(<small>defaultValue: any, key: string, callback?: (err: any, value: any) => void</small>)
 
 ?> For the global that handles `localStorage` (and desktop icons), see [$store](/api/globals/$store.md).
 
