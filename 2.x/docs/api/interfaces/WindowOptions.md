@@ -63,7 +63,7 @@ Whether or not the window will appear in the taskbar. [`dock`](#boolean-dock) mu
 !> It is recommended NOT to use this.
 
 Whether or not the window can be selected.
-### <small>Array\<unknown>?</small> headerBtn
+### <small>Array\<[HeaderButton](api/interfaces/HeaderButton.md)>?</small> headerBtn
 ### <small>Function?</small> onopen
 The function that is called when the window is opened.
 ### <small>Function?</small> onready
