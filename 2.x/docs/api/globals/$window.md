@@ -5,7 +5,7 @@ Creates a window.
 ## Properties
 ### <small>[WindowInstance?](/api/interfaces/WindowInstance.md)</small> current
 The current window that is focused by the user.
-### <small>Array\<[WindowInstance?](/api/interfaces/WindowInstance.md)></small> instances
+### <small>Array\<[WindowInstance](/api/interfaces/WindowInstance.md) | null></small> instances
 An array of every window made. If a value is null, that window has been closed.
 ## Methods
 ### <small>void</small> active(<small>id: number</small>)
