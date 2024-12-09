@@ -16,7 +16,7 @@ The path to the app's icon.
 A list of file extensions the app accepts, seperated by a comma.
 ### <small>number</small> uid?
 ### <small>boolean</small> hide?
-### <small>Array\<string>?</small> ext?
+### <small>Array\<string></small> ext?
 ### <small>void</small> exec()
 The function to run when the app is opened.
 ### <small>RegExp</small> mimetype?
